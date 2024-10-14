@@ -1,0 +1,44 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos básicos para el contenedor del menú */
+.dropdown {
+    background-color: rgba(233, 150, 122, 0.25);
+}
+
+/* Estilo para el botón */
+.dropdown-btn {
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 100px;
+    color: black;
+}
+
+.titulo {
+    margin-right: 700px;
+    font-weight: bold;
+}
+
+.dropdown-btn-icons {
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    margin-right: -10px;
+}
