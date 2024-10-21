@@ -1,0 +1,38 @@
+.section-7 {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column; /* Alinear los artículos uno encima del otro */
+    gap: 2rem; /* Espacio entre los artículos */
+    width: 100%;
+    align-items: center;
+}
+
+.section-7 article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas dentro de cada artículo */
+    gap: 3rem; /* Espacio entre los div dentro de los artículos */
+    width: 90%; /* Asegura que el artículo ocupe el 100% del ancho disponible */
+}
+
+.section-7 article div {
+    width: 100%;
+    text-align: center;
+}
+
+.section-7 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.section-7 p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.primeroimg, .segundoimg {
+    width: 150px;
+    height: 150px;
+}

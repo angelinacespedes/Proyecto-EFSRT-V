@@ -1,0 +1,55 @@
+.contact-container {
+    position: relative;
+    background-image: url('../../../public/images/fondo-contact.png');
+    height: 89vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.contact-arc {
+    background-color: rgb(230, 224, 206);
+    border-radius: 50% 50% 0 0 ;
+    padding: 4rem 3rem;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-arc h2 {
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-arc h3 {
+    font-size: 1.3rem;
+    color: #555;
+    margin-top: 1.5rem;
+}
+
+.contact-arc p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #777;
+    width: 70%;
+    margin-top: 0.5rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.decorations {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}

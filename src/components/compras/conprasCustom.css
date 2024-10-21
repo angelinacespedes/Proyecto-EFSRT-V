@@ -1,0 +1,54 @@
+.section-9 {
+    padding: 2rem;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column; /* Alinea los artículos uno debajo del otro */
+    gap: 2rem; /* Espacio entre los artículos */
+    width: 100%; /* Asegura que la sección ocupe el 100% del ancho disponible */
+    align-items: center;
+}
+
+.section-9 article {
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas dentro de cada artículo */
+    gap: 1.5rem; /* Espacio entre los div dentro de los artículos */
+    justify-content: center; /* Centra el contenido */
+    width: 60%; /* Asegura que cada artículo ocupe todo el ancho disponible */
+}
+
+.div-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido dentro de cada columna */
+    text-align: center;
+}
+
+.section-9 p {
+    width: 90%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.p-4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.imagenPrimero, .imagenSegundo {
+    width: 170px;
+    height: 170px;
+    max-width: 300px; /* Limita el ancho máximo de las imágenes para que se vean bien */
+}
+
+.carro {
+    display: flex;
+    justify-content: space-between; /* Crea espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    padding: 0 1rem; /* Espaciado interno opcional */
+}
+
+.carro i{
+    cursor: pointer;
+}
